@@ -1,0 +1,22 @@
+.smartphone_status_bar {
+  display: flex;
+  justify-content: space-between;
+  margin: -10px 15px 0;
+  &_icons {
+    height: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  &_icon_battary {
+    height: 16px;
+  }
+
+  &_icon_wifi {
+    height: 15px;
+  }
+}
+
+.time {
+  font-size: 14px;
+}

@@ -1,0 +1,66 @@
+@import "../ContactItem.module.scss";
+
+.contact__input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 42px;
+  font-size: 16px;
+  outline: none;
+}
+
+.contacts_item_add_contact {
+  display: flex;
+  color: #007aff;
+  margin: 10px 0 28px 0;
+
+  &_button {
+    width: 20px;
+    height: 20px;
+    background: #5bc236;
+    fill: white;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 6px;
+  }
+}
+
+.contact_user_img {
+  width: 150px;
+  height: 150px;
+  & > img {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+.contacts_contact_item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  & > input {
+    border: none;
+  }
+}
+
+.contacts_remove_icon {
+  cursor: pointer;
+  fill: white;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: red;
+  height: 21px;
+  width: 21px;
+}
+
+.contact__form__inputs {
+  margin: 30px 0 20px;
+}
+
+.contact_add_user_img {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #007aff;
+}
